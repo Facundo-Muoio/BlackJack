@@ -1,0 +1,21 @@
+* {
+	background-color: #006b2d;
+	margin: 0px;
+	padding: 0px;
+}
+
+.card {
+	width: 100px;
+}
+
+button {
+	background-color: #d6a760;
+	border: 2px solid #740b09;
+	color: #740b09;
+	width: 5rem;
+	font-weight: bold;
+	text-align: center;
+	padding: 1rem;
+	border-radius: 1rem;
+	cursor: pointer;
+}
