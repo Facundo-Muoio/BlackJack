@@ -19,3 +19,24 @@ button {
 	border-radius: 1rem;
 	cursor: pointer;
 }
+
+.lose_dialog,
+.win_dialog {
+	width: 600px;
+	height: 100px;
+	text-align: center;
+	border: none;
+	margin: auto;
+	padding: 1rem;
+	border-radius: 4px;
+}
+
+.lose_dialog::backdrop,
+.win_dialog::backdrop {
+	background-color: rgba(0, 0, 0, 0.35);
+}
+
+.btn-close_dialog {
+	width: 120px;
+	margin-top: 1rem;
+}
